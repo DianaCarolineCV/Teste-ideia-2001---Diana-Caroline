@@ -1,0 +1,49 @@
+html,
+body,
+figure,
+header,
+img,
+div,
+section,
+select,
+article,
+input,
+button,
+textarea,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a,
+form {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+input,
+button,
+select {
+  cursor: pointer;
+  background: transparent;
+}
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  --color-primary: #fa9401;
+  --color-primary-2: #ffb64e;
+  --color-secundary: #444242;
+  --color-grey: #f2f2f2;
+  --color-grey-1: #e8e8e8;
+}

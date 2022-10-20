@@ -1,0 +1,145 @@
+body {
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  background-color: var(--color-secundary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  padding: 0.9375rem;
+}
+
+header > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.3125rem 0.75rem;
+  border-radius: 3.125rem;
+  width: 5.8125rem;
+
+}
+
+header > img {
+  width: 7.625rem;
+  height: 2.3756rem;
+}
+
+header > button > a:hover {
+  border-bottom: 0.0625rem solid var(--color-grey);
+  transition: 1s ease;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 4rem);
+}
+
+main > #info {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+main > #info > div {
+  padding: 0.9375rem;
+  background-color: var(--color-grey);
+}
+
+main > #info > div > h2 {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+main > img {
+  width: 15.0325rem;
+  margin-bottom: 3.3125rem;
+}
+
+#ulContact {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#ulContact > li {
+  display: flex;
+  align-items: center;
+  margin: 0 0.9375rem;
+  height: 3.9375rem;
+  border-bottom: 0.0625rem solid var(--color-grey-1);
+}
+
+#ulContact > li > img {
+  padding-right: 1.2188rem;
+}
+
+#ulContact > li > p {
+  font-size: 0.875rem;
+  color: var(--color-secundary);
+}
+
+#socialContacts {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2.8256rem;
+}
+
+#socialContacts > li {
+  margin-right: 1.25rem;
+  border-bottom: 0.0625rem solid transparent;
+}
+
+#socialContacts > li:hover {
+  border-bottom: 0.0625rem solid var(--color-primary-2);
+}
+
+#footer {
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.125rem;
+  transition: 1s ease;
+}
+
+#footer:hover {
+  background-color: var(--color-secundary);
+  transition: 1s ease;
+}
+
+#footer > a {
+  color: var(--color-white);
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-height: 22.5rem) and (min-width: 22.5625rem) {
+  #ulContact > li {
+    height: 2.1875rem;
+  }
+  #socialContacts > li > a > img {
+    width: 1.4375rem;
+    height: 1.4375rem;
+  }
+
+  #socialContacts {
+    padding-top: 0.625rem;
+  }
+
+  #footer {
+    margin-top: 0.3125rem;
+  }
+
+  #footer > a {
+    font-size: 0.75rem;
+  }
+}
